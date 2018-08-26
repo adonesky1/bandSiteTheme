@@ -1,5 +1,5 @@
 /*!
-Theme Name: BoxSpring
+Theme Name: BandSiteTheme
 Theme URI: http://underscores.me/
 Author: Alex Donesky
 Author URI: http://underscores.me/
@@ -821,38 +821,6 @@ Blue Gray:  #3e4249
  	background: #db4b39;
  }
 
- /* === CUSTOM ICON SPRITES === */
-
- i.ci {
- 	display: inline-block;
- 	height: 40px;
- 	width: 40px;
- 	background: url('/wordpress/wp-content/themes/boxspring/assets/img/icon-sprite.png') no-repeat;
- }
-
- .ci.ci-computer {
- 	background-position: 0 0;
- }
-
- .ci.ci-watch {
- 	background-position: -40px 0;
- }
-
- .ci.ci-calendar {
- 	background-position: -80px 0;
- }
-
- .ci.ci-community {
- 	background-position: -120px 0;
- }
-
- .ci.ci-instructor {
- 	background-position: -160px 0;
- }
-
- .ci.ci-device {
- 	background-position: -200px 0;
- }
 
  /* ==== FORMS ==== */
 
@@ -957,12 +925,12 @@ Blue Gray:  #3e4249
  	margin-top: 30px;
  }
 
- #price-timeline {
+ #next-show {
  	margin: 30px 0 60px;
  	text-align: center;
  }
 
- #price-timeline .price {
+ #next-show .price {
  	display: inline-block;
  	width: 30%;
  	margin: 0 2% 0 0;
@@ -972,11 +940,11 @@ Blue Gray:  #3e4249
  	vertical-align: top;
  }
 
- #price-timeline .price.active {
+ #next-show .price.active {
  	background: #dd5638;
  }
 
- #price-timeline .price span {
+ #next-show .price span {
  	/* background: #101010; */
  	display: block;
  	height: 70px;
@@ -994,11 +962,11 @@ Blue Gray:  #3e4249
  	margin-left: -55px;
  }
 
- #price-timeline h4 {
+ #next-show h4 {
  	margin: 0 0 10px;
  }
 
- #price-timeline h4 small {
+ #next-show h4 small {
  	color: white;
  	font-weight: bold;
  	display: block;
@@ -1073,94 +1041,17 @@ Blue Gray:  #3e4249
  	margin: 7px 0 0 0;
  }
 
- #course-features {
- 	background: #3e4249;
- 	color: white;
- 	text-align: center;
- }
 
- #who-benefits {
- 	background: white;
- }
-
- #project-features {
- 	text-align: center;
- }
 
  #featurette {
- 	background: url('/wordpress/wp-content/themes/boxspring/assets/img/stuff-bg.jpg') 50% 100% repeat fixed;
+ 	background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/goldfractalz.jpg') 50% 100% repeat fixed;
  	background-size: cover;
  	text-align: center;
  	color: white;
  }
 
- #instructor {
- 	background: white url('/wordpress/wp-content/themes/boxspring/assets/img/brad-elvis.png') 90% -10px no-repeat;
- }
+ 
 
- #instructor h2 {
- 	margin: 0 0 20px;
- }
-
- #instructor .num {
- 	display: table;
- 	font-size: 30px;
- 	font-weight: bold;
- 	color: white;
- 	line-height: 24px;
- 	height: 140px;
- 	width: 140px;
- 	text-align: center;
- 	background: #dd5638;
- 	-webkit-border-radius: 100%;
- 	-moz-border-radius: 100%;
- 	border-radius: 100%;
- 	-webkit-font-smoothing: antialiased;
- 	text-rendering: optimizelegibility;
- }
-
- #instructor .num .num-content {
- 	display: table-cell;
- 	vertical-align: middle;
- }
-
- #instructor .num span {
- 	display: block;
- 	font-size: 20px;
- 	font-weight: normal;
- }
-
- #kudos {
- 	text-align: center;
- }
-
- .testimonial {
- 	margin-bottom: 60px;
- }
-
- .testimonial img {
- 	border-radius: 50%;
- }
-
- #signup {
- 	text-align: center;
- 	background: url('/wordpress/wp-content/themes/boxspring/assets/img/hipster-stuff.jpg') center center repeat fixed;
- 	background-size: cover;
- 	color: white;
- 	padding: 140px 0;
- }
-
- #signup h2 {
- 	font-weight: normal;
- }
-
- #signup h2 strong {
- 	border-bottom: solid 2px #dd5638;
- }
-
- #signup .btn {
- 	font-size: 24px;
- }
 
  footer {
  	background: #3e4249;
