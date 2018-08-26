@@ -7,34 +7,32 @@
 
 get_header(); ?>
 
-<?php get_template_part('content','tourhead'); ?>
 
 
-<div class="container">
+
+<div class="container dates">
         
-        <div class="section-header">
+        <div class="tour">
             
-            <h2><?php echo $about_band_title ?></h2>
-
-            <p class="lead"> <?php echo $about_band_desc ?></p>
-
-        </div><!-- section-header -->
+            <h2>Tour Dates</h2>
+       
+        </div>
             
-        <div class="row">
+        <div class="tour-dates">
         
-            <?php $loop = new WP_Query(array('post_type' => 'tour_date')); ?>
+            <?php $loop = new WP_Query(array('post_type' => 'tour_date', 'order' => 'ASC')); ?>
 
                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
 
-                <div class="col-sm-2" style="justify-content: space-evenly; margin: auto; ">
-                    <h2><?php the_field('location'); ?>></h2>
-                    <h4><?php the_field('date'); ?></h4>
+                <div class="row tour-dates">
+                    <span style="font-size: 20px"><b><?php the_field('date'); ?></b></span>
+                    <span><em><?php the_field('location'); ?></em></span>
+                    <button id="tickets" class="btn btn-danger">Tickets</button> 
                 </div>
                 
-            <?php endwhile;
-            wp_reset_query(); ?>
-
+            <?php endwhile; wp_reset_query(); ?>
         </div>
+
 
     </div>
 

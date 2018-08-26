@@ -781,9 +781,10 @@ Blue Gray:  #3e4249
  	border-color: #d95131;
  }
 
- #tickets {
+ #tickets .btn .btn-danger {
 	 float: right;
-	 /* justify-content: flex-end */
+	 background-color: green;
+	 border-color: purple;
  }
 
  .text-danger,
@@ -993,7 +994,6 @@ Blue Gray:  #3e4249
 	 justify-content: space-between
  }
  
-
  .tour {
 	 text-align: center;
 	 margin-top: 50px;
@@ -1005,27 +1005,15 @@ Blue Gray:  #3e4249
 	  justify-content: space-between
   }
 
-.row.tour-dates {
+  .row {
 	  margin-top: 40px;
-	  height: 100px;
 	  background-color: rgba(97, 97, 160, 0.5)
   }
   
-.dates {
+  .tour-dates {
 	  margin-bottom: 100px;
-	  flex: 1;
   }
 
-.band-members h4 {
-	text-align: center
-  }
-  
-.band-members img {
-   	border-bottom-left-radius: 50% 40%;
-   	border-bottom-right-radius: 50% 40%;
-   	border-top-left-radius: 50% 60%;
-   	border-top-right-radius: 50% 60%;
-}
 
  section h2 {
  	margin: 20px 0 40px;
@@ -1078,6 +1066,7 @@ Blue Gray:  #3e4249
  #optin p {
  	margin: 7px 0 0 0;
  }
+
 
 
  #featurette {
@@ -1239,7 +1228,41 @@ Blue Gray:  #3e4249
  	border-top: solid 1px #eee;
  }
 
- 
+ /* === RESOURCES === */
+
+ .resource {
+ 	width: 31.33333333%;
+ 	float: left;
+ 	margin: 0 3% 40px 0;
+ }
+
+ .resource:nth-child(3n) {
+ 	margin-right: 0;
+ }
+
+ /* === WIDGETS === */
+
+#songkick-widget-918 .widget_row {
+    background-color: rgba(0,0,0,0.48);
+}
+
+#wsk-widget .widget_row {
+    background-color: rgba(0,0,0,0.48);
+    border: none;
+    margin: 10px 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.widget_row {
+    border-bottom: 2px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    font-size: 13px;
+    font-family: 'helvetica', 'arial', sans-serif;
+	padding: 10px 0px;
+	
+}
  /* ==== MEDIA QUERIES ==== */
 
 

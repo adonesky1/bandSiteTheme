@@ -23,9 +23,9 @@ $about_band_desc = get_field('about_section_description');
 
                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
 
-                <div class="col-sm-2" style="justify-content: space-evenly; margin: auto; ">
+                <div class="col-sm-3 band-members" style="justify-content: space-evenly; margin: auto; ">
                     <img src="<?php the_field('band_member_image'); ?>">
-                    <h4><?php the_title(); ?></h4>
+                    <h4 ><?php the_title(); ?></h4>
                 </div>
                 
             <?php endwhile; wp_reset_query(); ?>
