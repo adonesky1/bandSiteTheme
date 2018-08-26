@@ -38,7 +38,7 @@ get_header(); ?>
     			<div class="row">
     			
     				<div class="col-sm-5">
-		    			<img src="<?php echo $badge; ?>" alt="My Band" class="logo">
+		    			<?php echo do_shortcode('[smartslider3 slider=3]'); ?>
     				</div><!-- col -->
 		    		
 		    		<div class="col-sm-7 hero-text">
