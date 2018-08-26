@@ -9,6 +9,9 @@
  * @package BoxSpring
  */
 
+$band_logo_two = get_post_meta(10, 'band_logo_two', true);
+ $band_logo = get_field('band_logo');
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -23,9 +26,10 @@
 	<!-- Font Awesome Icons -->
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	
-	
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Josefin+Sans|Sawarabi+Mincho" rel="stylesheet">
 
 
 	<?php wp_head(); ?>
@@ -60,7 +64,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap to Wordpress"></a>
+						<a class="navbar-brand" href="/" style="margin-top: -12px" ><img src="<?php echo $band_logo; ?>" alt="Band Logo"></a>
 					</div>
 
 					<?php 
