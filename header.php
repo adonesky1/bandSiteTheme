@@ -9,8 +9,7 @@
  * @package BoxSpring
  */
 
-$band_logo_two = get_post_meta(10, 'band_logo_two', true);
- $band_logo = get_field('band_logo');
+$band_logo = get_field('band_logo');
 
 ?>
 <!doctype html>
