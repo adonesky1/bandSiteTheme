@@ -1006,9 +1006,11 @@ Blue Gray:  #3e4249
   }
 
 .row.tour-dates {
-	  margin-top: 40px;
-	  height: 100px;
-	  background-color: rgba(97, 97, 160, 0.5)
+	  /* margin-top: 40px; */
+	  padding: 30px;
+	  /* height: 100px; */
+	  background-color: rgba(97, 97, 160, 0.5);
+	  justify-content: space-evenly
   }
   
 .dates {
@@ -1025,6 +1027,11 @@ Blue Gray:  #3e4249
    	border-bottom-right-radius: 50% 40%;
    	border-top-left-radius: 50% 60%;
    	border-top-right-radius: 50% 60%;
+}
+
+
+.gallery {
+	margin-top: 50px
 }
 
  section h2 {
