@@ -41,7 +41,7 @@
 			</div><!-- modal-header -->
 			
 			<div class="modal-body">
-				<p>Simply enter your name and email! As a thank you for joining us, we're going to give you one of our best-selling courses, <em>for free!</em></p>
+				<p>Simply enter your name and email!</p>
 				
 				<form class="form-inline" role="form">
 					<div class="form-group">
@@ -58,7 +58,7 @@
 				
 				<hr>
 				
-				<p><small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br>No Spam. Just good stuff. We respect your privacy &amp; you may unsubscribe at any time.</small></p>
+				<p><small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br>No Spam. We respect your privacy &amp; you may unsubscribe at any time.</small></p>
 			</div><!-- modal-body -->
 			
 		</div><!-- modal-content -->

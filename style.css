@@ -674,7 +674,7 @@ Blue Gray:  #3e4249
 	 /* font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif; */
 	font-family: 'Sawarabi Mincho', sans-serif;
  	font-size: 16px;
- 	background: url('/wordpress/wp-content/themes/boxspring/assets/img/tile.jpg') top left repeat;
+ 	background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/tile.jpg') top left repeat;
  }
 
  .logged-in .navbar-fixed-top {
@@ -796,7 +796,7 @@ Blue Gray:  #3e4249
  }
 
  .modal-content {
- 	background: url('/wordpress/wp-content/themes/boxspring/assets/img/tile.jpg') top left repeat;
+ 	background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/tile.jpg') top left repeat;
  }
 
  .badge.social {
@@ -825,6 +825,10 @@ Blue Gray:  #3e4249
  .badge.social.gplus:hover {
  	background: #db4b39;
  }
+
+  .navbar.transparent.navbar-inverse {
+  	background: rgba(0, 0, 0, 0.7);
+  }
 
 
  /* ==== FORMS ==== */

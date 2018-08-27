@@ -54,7 +54,8 @@ $band_logo = get_field('band_logo');
 		================================================== -->
 		<div class="navbar-wrapper">
 			
-			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="navbar transparent navbar-inverse navbar-fixed-top" role="navigation">
+				<nav class="navbar-inner">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -78,6 +79,7 @@ $band_logo = get_field('band_logo');
 
 					
 				</div>
+						</nav>
 			</div>
 		
 		</div>
