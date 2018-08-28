@@ -7,21 +7,11 @@
 
 
 <footer>
-	<div class="container">
+	<div class="container footer">
 		<div class="col-sm-3">
 			<p style= "margin-top: -8px;"><a href="/"><img src="<?php echo $band_logo ?>" alt="Band Logo"></a></p>
 		</div><!-- end col -->
-		<div class="col-sm-6">
-			<?php
-    wp_nav_menu(array(
-
-        'theme_location' => 'footer',
-        'container' => 'nav',
-        'menu_class' => 'list-unstyled list-inline'
-
-    ));
-    ?>
-		</div><!-- end col -->
+	
 		<div class="col-sm-3">
 			<p class="pull-right"><?php bloginfo('name'); ?> &copy; <?php echo date('Y'); ?> <?php the_author_link(); ?></p>
 		</div><!-- end col -->
