@@ -4,13 +4,14 @@
     Template Name: Home Page
 */
 
+get_header()
+ ?>
 
-get_header(); ?>
 
     <!-- HERO
     ================================================== -->
   
-	<?php get_template_part('content','banner')?>
+	<?php get_template_part('content','newbanner')?>
 	
 	<!-- OPT IN SECTION
 	================================================== -->

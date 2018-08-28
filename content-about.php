@@ -7,15 +7,15 @@ $about_band_desc = get_field('about_section_description');
 
 
 <section id="about-band">
+    <div class="section-header about-band">
+        
+        <h2><?php echo $about_band_title ?></h2>
+
+        <p class="lead"> <?php echo $about_band_desc; ?></p>
+
+    </div><!-- section-header -->
     <div class="container">
         
-        <div class="section-header">
-            
-            <h2><?php echo $about_band_title ?></h2>
-
-            <p class="lead"> <?php echo $about_band_desc ?></p>
-
-        </div><!-- section-header -->
             
         <div class="row">
         
@@ -23,7 +23,7 @@ $about_band_desc = get_field('about_section_description');
 
                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
 
-                <div class="col-sm-3 band-members" style="justify-content: space-evenly; margin: auto; ">
+                <div class="col-sm-3 band-members">
                     <img src="<?php the_field('band_member_image'); ?>">
                     <h4><?php the_title(); ?></h4>
                 </div>

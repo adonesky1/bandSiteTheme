@@ -7,22 +7,19 @@ $third_show = get_post_meta(10, 'third_show', true);
 $schedule = get_post_meta(10, 'schedule_link', true);
 $button_text = get_post_meta(10, 'button_text', true);
 
-
 ?>  
   
-  <section id="hero" data-type="background" style="background: url('<?php echo $banner_background['url']; ?>') 50% 0 repeat fixed" data-speed="5">
-    	<article>
-    		<div class="container clearfix">
-    			<div class="row">
-    			
-    				<div class="col-sm-5">
-						<h2>Our Albums</h2>
-						<?php echo do_shortcode('[smartslider3 slider=3]'); ?>
-    				</div><!-- col -->
-		    		
-		    	
-    			</div><!-- row -->
-    		</div><!-- container -->
-    	</article>
+  <?php get_template_part('content', 'navbar') ?>
+
+  <section style="background: url('<?php echo $banner_background['url']; ?>') no-repeat center center fixed; 
+  background-size: cover;">
+			<div class="container landing">
+				<div class="row">
+			
+					<h1>Emperor of Sands <br><small>Out Now</small></h1>
+					<div class="arrow bounce">
+						<a class="fa fa-arrow-down fa-2x" href="#"></a>
+					</div>
+				</div><!-- container -->
     </section>
 	

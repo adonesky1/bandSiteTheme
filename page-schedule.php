@@ -4,10 +4,10 @@
     Template Name: Tour Schedule Page
 */
 
+get_header()
+?>
 
-get_header(); ?>
-
-
+ <?php get_template_part('content', 'navbar') ?>
 
 
 <div class="container dates">
