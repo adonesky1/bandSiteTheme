@@ -1,11 +1,8 @@
 <?php 
 
 $banner_background = get_field('banner_background');
-$next_show = get_post_meta(10, 'next_show', true);
-$second_show = get_post_meta(10, 'second_show', true);
-$third_show = get_post_meta(10, 'third_show', true);
-$schedule = get_post_meta(10, 'schedule_link', true);
-$button_text = get_post_meta(10, 'button_text', true);
+$recent_release = get_field('recent_release');
+$recent_release_purchase = get_field('recent_release_purchase');
 
 ?>  
   
@@ -16,9 +13,13 @@ $button_text = get_post_meta(10, 'button_text', true);
 			<div class="container landing">
 				<div class="row">
 			
-					<h1>Emperor of Sands <br><small>Out Now</small></h1>
+					<h1><?php echo $recent_release; ?>
+						<br>
+						<a href="<?php echo $recent_release_purchase; ?>" target="_blank" >Out Now</a>
+					</h1>
+					<br />
 					<div class="arrow bounce">
-						<a class="fa fa-arrow-down fa-2x" href="#"></a>
+						<a class="fa fa-arrow-down fa-2x" href="#about-band" rel="m_PageScroll2id" ></a>
 					</div>
 				</div><!-- container -->
     </section>

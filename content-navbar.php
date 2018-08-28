@@ -16,9 +16,8 @@ $band_logo = get_field('band_logo');
 		================================================== -->
 		<div class="navbar-wrapper">
 			
-			<div class="navbar transparent navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="navbar transparent navbar-inverse navbar-fixed-top justify-content-between" role="navigation">
 				<nav class="navbar-inner">
-				<div class="container">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="/" style="margin-top: -12px" ><img src="<?php echo $band_logo; ?>" alt="Band Logo"></a>
 					</div>
@@ -34,7 +33,6 @@ $band_logo = get_field('band_logo');
     ?>
 
 					
-				</div>
 				</nav>
 			</div>
 		

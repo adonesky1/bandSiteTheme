@@ -852,8 +852,8 @@ Blue Gray:  #3e4249
 	
  }
 
- .container .row h1 small {
-	 color: white;
+ .container .row h1 a {
+	 /* color: white; */
  }
 
 
@@ -861,6 +861,7 @@ Blue Gray:  #3e4249
 
 .arrow {
 	text-align: center;
+	color: white;
 	/* position:absolute;
 	bottom:0; */
 }
@@ -968,19 +969,29 @@ Blue Gray:  #3e4249
  }
  
  /* ==== NAVBAR ==== */
+.navbar-collapse .collapse {
+	display: flex;
+	justify-content: space-evenly
+}
+
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus{
 	color: grey;
 	/* padding: -10px; */
 	/* border-width: 2px; */
-	border-radius: 5px;
-	border: 1px solid white
+	/* border-radius: 5px; */
+	/* border: 1px solid white */
 }
 
 .navbar-inverse .navbar-nav>li>a {
 	padding: 7px;
-	margin: 5px;
+	margin-right: 50px;
+	margin-top: 8px;
 	color: white;
+}
+
+.navbar-brand {
+	margin-left: 70px;
 }
 
 

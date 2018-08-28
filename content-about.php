@@ -6,16 +6,17 @@ $about_band_desc = get_field('about_section_description');
 ?>
 
 
-<section id="about-band">
-    <div class="section-header about-band">
-        
-        <h2><?php echo $about_band_title ?></h2>
+<section id="about-band"> 
 
-        <p class="lead"> <?php echo $about_band_desc; ?></p>
-
-    </div><!-- section-header -->
     <div class="container">
         
+        <div class="section-header about-band">
+            
+            <h2><?php echo $about_band_title ?></h2>
+    
+            <p class="lead"> <?php echo $about_band_desc; ?></p>
+    
+        </div><!-- section-header -->
             
         <div class="row">
         
