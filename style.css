@@ -674,7 +674,7 @@ Blue Gray:  #3e4249
 	 /* font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif; */
 	font-family: 'Sawarabi Mincho', sans-serif;
  	font-size: 16px;
-	 background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/textures/tile.jpg') top left repeat;
+	 background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/textures/black-and-white-bird-animal-texture-1.jpg') top left repeat;
 	 /* height: 100%; */
  }
 
@@ -844,13 +844,49 @@ Blue Gray:  #3e4249
 
 
  .container .row  h1 {
-	 
 	 color: white;
 	 text-align: center;
 	 background-color: rgba(0, 0, 0, .275);
 	 box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
 	
  }
+
+ #slider {
+ 	position: absolute;
+ 	transform: translateY(-100%);
+ 	-webkit-transform: translateY(-100%);
+ }
+
+ .slide-in {
+ 	animation: slide-in 1.2s forwards;
+ 	-webkit-animation: slide-in 1.2s forwards;
+ }
+
+
+ @keyframes slide-in {
+ 	100% {
+ 		transform: translateX(0%);
+ 	}
+ }
+
+ @-webkit-keyframes slide-in {
+ 	100% {
+ 		-webkit-transform: translateX(0%);
+ 	}
+ }
+
+
+ .container .row h1>a:hover {
+	color: goldenrod;
+	cursor: pointer;
+	-webkit-transition: color 2s ease-out;
+	-moz-transition: color 2s ease-out;
+	-o-transition: color 2s ease-out;
+	transition: color 2s ease-out;
+}
+
+
+
 
  .tour h2 {
 	 margin-top: 80px;
@@ -987,7 +1023,7 @@ Blue Gray:  #3e4249
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus{
-	color: grey;
+	color: #e55939;
 	/* padding: -10px; */
 	/* border-width: 2px; */
 	/* border-radius: 5px; */
@@ -1011,8 +1047,9 @@ Blue Gray:  #3e4249
 
 .social-media {
 	float: right;
-	margin-right: 100vh;
-	bottom: 30px;
+	margin-left: 25vh;
+	/* bottom: 30px; */
+	position: absolute;
 
 }
 
@@ -1052,8 +1089,13 @@ Blue Gray:  #3e4249
 	  /* margin-top: 40px; */
 	  padding: 30px;
 	  /* height: 100px; */
-	  background-color: rgba(97, 97, 160, 0.5);
+	  background-color: rgba(97, 97, 160, 0.7);
 	  justify-content: space-evenly
+  }
+
+  .tour-dates span {
+	  color: orange;
+	   /* mix-blend-mode: exclusion; */
   }
   
 .dates {
@@ -1141,7 +1183,11 @@ Blue Gray:  #3e4249
 	opacity: .8;
  	color: white;
  	padding: 20px 0 10px;
- 	font-size: 12px;
+	 font-size: 12px;
+	 position: relative;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
  }
 
  .pull-right{
@@ -1165,6 +1211,13 @@ Blue Gray:  #3e4249
  	font-weight: bold;
  }
 
+
+ .site-footer {
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ }
  /* ==== BLOG ==== */
 
  .post,

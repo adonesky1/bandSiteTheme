@@ -11,7 +11,7 @@ $recent_release_purchase = get_field('recent_release_purchase');
   <section style="background: url('<?php echo $banner_background['url']; ?>') no-repeat center center fixed; 
   background-size: cover;">
 			<div class="container landing">
-				<div class="row">
+				<div id="slider" class="row slide-in">
 			
 					<h1><?php echo $recent_release; ?>
 						<br>
