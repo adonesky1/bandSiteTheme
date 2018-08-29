@@ -1242,6 +1242,15 @@ Blue Gray:  #3e4249
  }
 
 
+ #twitter-feed {
+	background: #3e4249;
+	padding: 20px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 1.2em;
+ }
+
  #featurette {
  	background: url('/wordpress/wp-content/themes/bandsitetheme/assets/img/textures/orange-metal-rust-texture-1.jpg') 50% 100% repeat fixed;
  	background-size: cover;

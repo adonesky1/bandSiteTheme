@@ -1,13 +1,11 @@
 <?php 
 
-$my_news = "hellllllllooooooo";
 $number_of_tweets = 5;
-$twitter_screenname_to_load ='@mastodonmusic';
-
+$twitter_screenname_to_load = get_field('twitter_handle');
 $tweets = getTweets($number_of_tweets, $twitter_screenname_to_load);
 
 ?>
- <section id="optin">
+ <section id="twitter-feed">
 		<!-- <div class="container"> -->
 			<div class="row">
                    

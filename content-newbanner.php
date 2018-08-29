@@ -19,7 +19,7 @@ $recent_release_purchase = get_field('recent_release_purchase');
 					</h1>
 					<br />
 					<div class="arrow bounce">
-						<a class="fa fa-arrow-down fa-2x" href="#about-band" rel="m_PageScroll2id" ></a>
+						<a class="fa fa-arrow-down fa-2x" href="#twitter-feed" rel="m_PageScroll2id" ></a>
 					</div>
 				</div><!-- container -->
     </section>
