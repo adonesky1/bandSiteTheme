@@ -851,6 +851,78 @@ Blue Gray:  #3e4249
 	
  }
 
+ /* ==== ANIMATIONS ==== */
+
+.pullUp {
+	animation-name: pullUp;
+	-webkit-animation-name: pullUp;
+	animation-duration: 1.1s;
+	-webkit-animation-duration: 1.1s;
+	animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease-out;
+	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+}
+
+@keyframes pullUp {
+	0% {
+		transform: scaleY(0.1);
+	}
+	40% {
+		transform: scaleY(1.02);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+
+
+.floating {
+	animation-name: floating;
+	-webkit-animation-name: floating;
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(8%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
  #slider {
  	position: absolute;
  	transform: translateY(-100%);
@@ -897,7 +969,7 @@ Blue Gray:  #3e4249
  /* ==== ABOUT ==== */
 
  #about-band {
-	 min-height: 60vh
+	 min-height: 70vh
  }
 
 
@@ -1158,7 +1230,7 @@ Blue Gray:  #3e4249
 
  #optin {
  	background: #3e4249;
- 	padding: 20px 0;
+ 	padding: 20px;
  	color: white;
  	-webkit-font-smoothing: antialiased;
  	text-rendering: optimizelegibility;

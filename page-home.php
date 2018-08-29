@@ -13,17 +13,23 @@ get_header()
   
 	<?php get_template_part('content','newbanner')?>
 	
-	<!-- OPT IN SECTION
-	================================================== -->
+
 	
-	<?php get_template_part('content','subscribe') ?>
-    
+	<?php get_template_part('content', 'newsScroll') ?>
+
+
     <!-- ABOUT THE BAND
 	================================================== -->
 
 	<?php get_template_part('content','about'); ?>
 	
+	
+	<!-- OPT IN SECTION
+	================================================== -->
+	
+	<?php get_template_part('content', 'subscribe') ?>
     
+
 	<!-- VIDEOS
 	================================================== -->
 
