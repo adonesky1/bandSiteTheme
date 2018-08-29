@@ -11,7 +11,7 @@ get_header()
     <!-- HERO
     ================================================== -->
   
-	<?php get_template_part('content','newbanner')?>
+	<?php get_template_part('content','banner')?>
 	
 
 	

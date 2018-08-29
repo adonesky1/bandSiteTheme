@@ -851,6 +851,12 @@ Blue Gray:  #3e4249
 	
  }
 
+ .bottom {
+	 width: 100%;
+	position:absolute;
+	bottom:0; 
+ }
+
  /* ==== ANIMATIONS ==== */
 
 .pullUp {
@@ -979,8 +985,6 @@ Blue Gray:  #3e4249
 .arrow {
 	text-align: center;
 	color: white;
-	/* position:absolute;
-	bottom:0; */
 }
 
 .bounce {

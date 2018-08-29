@@ -15,6 +15,6 @@ get_header()
     </div>
     <?php cue_playlist(77); ?>
 </div>
-
+<div class="bottom">
 <?php get_footer(); ?>
-
+</div>

@@ -61,9 +61,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
+    <script src="<?php  echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="<?php  echo esc_url( get_template_directory_uri() ); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php  echo esc_url( get_template_directory_uri() ); ?>/assets/js/main.js"></script>
     <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   
